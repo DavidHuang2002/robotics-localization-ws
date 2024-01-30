@@ -1,0 +1,33 @@
+/camera/realsense2_camera:
+  ros__parameters:
+    device_type: d435 #Name matters and is important
+    enable_infra1: true
+    enable_infra2: true
+
+    enable_gyro: false
+    enable_accel: true
+
+    depth_module.profile: 640x480x30
+    # for infra-red
+    depth_module.emitter_enabled: 0
+    depth_module.exposure: 1500
+
+
+    filters: pointcloud
+    serial_no: '233522072445' #233522072445
+   # rgb_camera
+
+
+/camera2/realsense2_camera:
+  ros__parameters:
+    device_type: d435 #Name matters and is important
+    # enable_infra1: true
+    # enable_infra2: true
+
+    enable_gyro: false
+    enable_accel: true
+
+    depth_module.profile: 640x480x30
+
+    filters: pointcloud
+    serial_no: '137322072361'

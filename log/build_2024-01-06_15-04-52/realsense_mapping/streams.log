@@ -1,0 +1,38 @@
+[0.692s] Invoking command in '/home/david/Desktop/infra_red_ws/build/realsense_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/Desktop/lunabot-2023/install/infra_red_localization:/home/david/Desktop/lunabot-2023/install/state_machine:/home/david/Desktop/lunabot-2023/install/robot_bring_up:/home/david/Desktop/lunabot-2023/install/lidar_localization:/home/david/Desktop/lunabot-2023/install/flip_base_link:/opt/ros/foxy /usr/bin/cmake --build /home/david/Desktop/infra_red_ws/build/realsense_mapping -- -j12 -l12
+[0.768s] [100%] Built target cam_publisher
+[0.780s] Invoked command in '/home/david/Desktop/infra_red_ws/build/realsense_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/Desktop/lunabot-2023/install/infra_red_localization:/home/david/Desktop/lunabot-2023/install/state_machine:/home/david/Desktop/lunabot-2023/install/robot_bring_up:/home/david/Desktop/lunabot-2023/install/lidar_localization:/home/david/Desktop/lunabot-2023/install/flip_base_link:/opt/ros/foxy /usr/bin/cmake --build /home/david/Desktop/infra_red_ws/build/realsense_mapping -- -j12 -l12
+[0.827s] Invoking command in '/home/david/Desktop/infra_red_ws/build/realsense_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/Desktop/lunabot-2023/install/infra_red_localization:/home/david/Desktop/lunabot-2023/install/state_machine:/home/david/Desktop/lunabot-2023/install/robot_bring_up:/home/david/Desktop/lunabot-2023/install/lidar_localization:/home/david/Desktop/lunabot-2023/install/flip_base_link:/opt/ros/foxy /usr/bin/cmake --install /home/david/Desktop/infra_red_ws/build/realsense_mapping
+[0.838s] -- Install configuration: ""
+[0.839s] -- Execute custom install script
+[0.839s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/realsense_launch/base_link_to_camera_link.launch.py
+[0.839s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/realsense_launch/base_link_to_camera_link2.launch.py
+[0.840s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/realsense_launch/depthimage_to_laserscan.launch.py
+[0.840s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/realsense_launch/realsense.launch.py
+[0.840s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/realsense_launch/realsense2.launch.py
+[0.841s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/rtabmap_launch/cam_publisher.launch.py
+[0.841s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/rtabmap_launch/lidar_localization_rtabmap.launch.py
+[0.841s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/rtabmap_launch/standard_realsense_rtabmap_launch.xml
+[0.841s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/rtabmap_launch/standard_rtabmap.launch.py
+[0.841s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/rtabmap_launch/standard_rtabmap_backward.launch.py
+[0.841s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/rtabmap_launch/standard_two_realsense_rtabmap.launch.py
+[0.842s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/rtabmap_launch/standard_two_realsense_rtabmap_launch.xml
+[0.842s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/rtabmap_launch/standard_two_realsense_rtabmap_lidar_launch.xml
+[0.842s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/config/param.yaml
+[0.843s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/config/realsense_params.yaml
+[0.843s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/lib/realsense_mapping/cam_publisher
+[0.843s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/ament_index/resource_index/package_run_dependencies/realsense_mapping
+[0.844s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/ament_index/resource_index/parent_prefix_path/realsense_mapping
+[0.844s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/environment/ament_prefix_path.sh
+[0.844s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/environment/ament_prefix_path.dsv
+[0.845s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/environment/path.sh
+[0.845s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/environment/path.dsv
+[0.845s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/local_setup.bash
+[0.845s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/local_setup.sh
+[0.846s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/local_setup.zsh
+[0.846s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/local_setup.dsv
+[0.847s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/package.dsv
+[0.858s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/ament_index/resource_index/packages/realsense_mapping
+[0.858s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/cmake/realsense_mappingConfig.cmake
+[0.858s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/cmake/realsense_mappingConfig-version.cmake
+[0.858s] -- Up-to-date symlink: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/package.xml
+[0.861s] Invoked command in '/home/david/Desktop/infra_red_ws/build/realsense_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/Desktop/lunabot-2023/install/infra_red_localization:/home/david/Desktop/lunabot-2023/install/state_machine:/home/david/Desktop/lunabot-2023/install/robot_bring_up:/home/david/Desktop/lunabot-2023/install/lidar_localization:/home/david/Desktop/lunabot-2023/install/flip_base_link:/opt/ros/foxy /usr/bin/cmake --install /home/david/Desktop/infra_red_ws/build/realsense_mapping

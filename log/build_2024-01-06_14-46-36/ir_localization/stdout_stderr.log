@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating ir_localization.egg-info
+writing ir_localization.egg-info/PKG-INFO
+writing dependency_links to ir_localization.egg-info/dependency_links.txt
+writing entry points to ir_localization.egg-info/entry_points.txt
+writing requirements to ir_localization.egg-info/requires.txt
+writing top-level names to ir_localization.egg-info/top_level.txt
+writing manifest file 'ir_localization.egg-info/SOURCES.txt'
+reading manifest file 'ir_localization.egg-info/SOURCES.txt'
+writing manifest file 'ir_localization.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/david/Desktop/infra_red_ws/install/ir_localization/lib/python3.8/site-packages/site.py
+Creating /home/david/Desktop/infra_red_ws/install/ir_localization/lib/python3.8/site-packages/ir-localization.egg-link (link to .)
+
+Installed /home/david/Desktop/infra_red_ws/build/ir_localization
+running install_data
+creating /home/david/Desktop/infra_red_ws/install/ir_localization/share/ament_index
+creating /home/david/Desktop/infra_red_ws/install/ir_localization/share/ament_index/resource_index
+creating /home/david/Desktop/infra_red_ws/install/ir_localization/share/ament_index/resource_index/packages
+copying resource/ir_localization -> /home/david/Desktop/infra_red_ws/install/ir_localization/share/ament_index/resource_index/packages
+copying package.xml -> /home/david/Desktop/infra_red_ws/install/ir_localization/share/ir_localization

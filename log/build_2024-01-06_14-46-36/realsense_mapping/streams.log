@@ -1,0 +1,98 @@
+[0.770s] Invoking command in '/home/david/Desktop/infra_red_ws/build/realsense_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/Desktop/lunabot-2023/install/infra_red_localization:/home/david/Desktop/lunabot-2023/install/state_machine:/home/david/Desktop/lunabot-2023/install/robot_bring_up:/home/david/Desktop/lunabot-2023/install/lidar_localization:/home/david/Desktop/lunabot-2023/install/flip_base_link:/opt/ros/foxy /usr/bin/cmake /home/david/Desktop/infra_red_ws/src/realsense_mapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/david/Desktop/infra_red_ws/install/realsense_mapping
+[0.834s] -- The C compiler identification is GNU 9.4.0
+[0.895s] -- The CXX compiler identification is GNU 9.4.0
+[0.904s] -- Check for working C compiler: /usr/bin/cc
+[0.987s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.988s] -- Detecting C compiler ABI info
+[1.089s] -- Detecting C compiler ABI info - done
+[1.109s] -- Detecting C compile features
+[1.109s] -- Detecting C compile features - done
+[1.113s] -- Check for working CXX compiler: /usr/bin/c++
+[1.216s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.218s] -- Detecting CXX compiler ABI info
+[1.327s] -- Detecting CXX compiler ABI info - done
+[1.351s] -- Detecting CXX compile features
+[1.352s] -- Detecting CXX compile features - done
+[1.373s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.425s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.425s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.661s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.766s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.872s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.898s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.029s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.069s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.235s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.342s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.346s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.347s] -- Looking for pthread.h
+[2.437s] -- Looking for pthread.h - found
+[2.438s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.520s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.520s] -- Looking for pthread_create in pthreads
+[2.593s] -- Looking for pthread_create in pthreads - not found
+[2.593s] -- Looking for pthread_create in pthread
+[2.677s] -- Looking for pthread_create in pthread - found
+[2.678s] -- Found Threads: TRUE  
+[2.851s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[2.867s] -- Found depthimage_to_laserscan: 2.3.1 (/opt/ros/foxy/share/depthimage_to_laserscan/cmake)
+[2.874s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[3.289s] -- Found realsense2_camera: 4.51.1 (/opt/ros/foxy/share/realsense2_camera/cmake)
+[3.723s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.835s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.837s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.837s] -- Configured cppcheck include dirs: 
+[3.837s] -- Configured cppcheck exclude dirs and/or files: 
+[3.839s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.839s] -- Configured cpplint exclude dirs and/or files: 
+[3.840s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.841s] -- Added test 'lint_cmake' to check CMake code style
+[3.842s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.844s] -- Added test 'uncrustify' to check C / C++ code style
+[3.844s] -- Configured uncrustify additional arguments: 
+[3.845s] -- Added test 'xmllint' to check XML markup files
+[3.851s] -- Configuring done
+[3.859s] -- Generating done
+[3.861s] -- Build files have been written to: /home/david/Desktop/infra_red_ws/build/realsense_mapping
+[3.871s] Invoked command in '/home/david/Desktop/infra_red_ws/build/realsense_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/Desktop/lunabot-2023/install/infra_red_localization:/home/david/Desktop/lunabot-2023/install/state_machine:/home/david/Desktop/lunabot-2023/install/robot_bring_up:/home/david/Desktop/lunabot-2023/install/lidar_localization:/home/david/Desktop/lunabot-2023/install/flip_base_link:/opt/ros/foxy /usr/bin/cmake /home/david/Desktop/infra_red_ws/src/realsense_mapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/david/Desktop/infra_red_ws/install/realsense_mapping
+[3.874s] Invoking command in '/home/david/Desktop/infra_red_ws/build/realsense_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/Desktop/lunabot-2023/install/infra_red_localization:/home/david/Desktop/lunabot-2023/install/state_machine:/home/david/Desktop/lunabot-2023/install/robot_bring_up:/home/david/Desktop/lunabot-2023/install/lidar_localization:/home/david/Desktop/lunabot-2023/install/flip_base_link:/opt/ros/foxy /usr/bin/cmake --build /home/david/Desktop/infra_red_ws/build/realsense_mapping -- -j12 -l12
+[3.927s] [35m[1mScanning dependencies of target cam_publisher[0m
+[3.967s] [ 50%] [32mBuilding CXX object CMakeFiles/cam_publisher.dir/src/cam_publisher.cpp.o[0m
+[10.534s] [100%] [32m[1mLinking CXX executable cam_publisher[0m
+[10.863s] [100%] Built target cam_publisher
+[10.877s] Invoked command in '/home/david/Desktop/infra_red_ws/build/realsense_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/Desktop/lunabot-2023/install/infra_red_localization:/home/david/Desktop/lunabot-2023/install/state_machine:/home/david/Desktop/lunabot-2023/install/robot_bring_up:/home/david/Desktop/lunabot-2023/install/lidar_localization:/home/david/Desktop/lunabot-2023/install/flip_base_link:/opt/ros/foxy /usr/bin/cmake --build /home/david/Desktop/infra_red_ws/build/realsense_mapping -- -j12 -l12
+[10.923s] Invoking command in '/home/david/Desktop/infra_red_ws/build/realsense_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/Desktop/lunabot-2023/install/infra_red_localization:/home/david/Desktop/lunabot-2023/install/state_machine:/home/david/Desktop/lunabot-2023/install/robot_bring_up:/home/david/Desktop/lunabot-2023/install/lidar_localization:/home/david/Desktop/lunabot-2023/install/flip_base_link:/opt/ros/foxy /usr/bin/cmake --install /home/david/Desktop/infra_red_ws/build/realsense_mapping
+[10.933s] -- Install configuration: ""
+[10.933s] -- Execute custom install script
+[10.934s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/realsense_launch/base_link_to_camera_link.launch.py
+[10.945s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/realsense_launch/base_link_to_camera_link2.launch.py
+[10.955s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/realsense_launch/depthimage_to_laserscan.launch.py
+[10.966s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/realsense_launch/realsense.launch.py
+[10.978s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/realsense_launch/realsense2.launch.py
+[10.991s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/rtabmap_launch/cam_publisher.launch.py
+[11.002s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/rtabmap_launch/lidar_localization_rtabmap.launch.py
+[11.014s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/rtabmap_launch/standard_realsense_rtabmap_launch.xml
+[11.027s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/rtabmap_launch/standard_rtabmap.launch.py
+[11.040s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/rtabmap_launch/standard_rtabmap_backward.launch.py
+[11.051s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/rtabmap_launch/standard_two_realsense_rtabmap.launch.py
+[11.061s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/rtabmap_launch/standard_two_realsense_rtabmap_launch.xml
+[11.072s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/rtabmap_launch/standard_two_realsense_rtabmap_lidar_launch.xml
+[11.084s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/config/param.yaml
+[11.096s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/config/realsense_params.yaml
+[11.106s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/lib/realsense_mapping/cam_publisher
+[11.117s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/ament_index/resource_index/package_run_dependencies/realsense_mapping
+[11.128s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/ament_index/resource_index/parent_prefix_path/realsense_mapping
+[11.141s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/environment/ament_prefix_path.sh
+[11.153s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/environment/ament_prefix_path.dsv
+[11.164s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/environment/path.sh
+[11.175s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/environment/path.dsv
+[11.187s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/local_setup.bash
+[11.201s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/local_setup.sh
+[11.213s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/local_setup.zsh
+[11.224s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/local_setup.dsv
+[11.235s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/package.dsv
+[11.248s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/ament_index/resource_index/packages/realsense_mapping
+[11.260s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/cmake/realsense_mappingConfig.cmake
+[11.271s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/cmake/realsense_mappingConfig-version.cmake
+[11.282s] -- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/package.xml
+[11.296s] Invoked command in '/home/david/Desktop/infra_red_ws/build/realsense_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/Desktop/lunabot-2023/install/infra_red_localization:/home/david/Desktop/lunabot-2023/install/state_machine:/home/david/Desktop/lunabot-2023/install/robot_bring_up:/home/david/Desktop/lunabot-2023/install/lidar_localization:/home/david/Desktop/lunabot-2023/install/flip_base_link:/opt/ros/foxy /usr/bin/cmake --install /home/david/Desktop/infra_red_ws/build/realsense_mapping

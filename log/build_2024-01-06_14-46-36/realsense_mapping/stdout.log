@@ -1,0 +1,92 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+-- Found depthimage_to_laserscan: 2.3.1 (/opt/ros/foxy/share/depthimage_to_laserscan/cmake)
+-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+-- Found realsense2_camera: 4.51.1 (/opt/ros/foxy/share/realsense2_camera/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/david/Desktop/infra_red_ws/build/realsense_mapping
+[35m[1mScanning dependencies of target cam_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cam_publisher.dir/src/cam_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable cam_publisher[0m
+[100%] Built target cam_publisher
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/realsense_launch/base_link_to_camera_link.launch.py
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/realsense_launch/base_link_to_camera_link2.launch.py
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/realsense_launch/depthimage_to_laserscan.launch.py
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/realsense_launch/realsense.launch.py
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/realsense_launch/realsense2.launch.py
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/rtabmap_launch/cam_publisher.launch.py
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/rtabmap_launch/lidar_localization_rtabmap.launch.py
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/rtabmap_launch/standard_realsense_rtabmap_launch.xml
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/rtabmap_launch/standard_rtabmap.launch.py
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/rtabmap_launch/standard_rtabmap_backward.launch.py
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/rtabmap_launch/standard_two_realsense_rtabmap.launch.py
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/rtabmap_launch/standard_two_realsense_rtabmap_launch.xml
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/rtabmap_launch/standard_two_realsense_rtabmap_lidar_launch.xml
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/config/param.yaml
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/config/realsense_params.yaml
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/lib/realsense_mapping/cam_publisher
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/ament_index/resource_index/package_run_dependencies/realsense_mapping
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/ament_index/resource_index/parent_prefix_path/realsense_mapping
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/environment/ament_prefix_path.sh
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/environment/ament_prefix_path.dsv
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/environment/path.sh
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/environment/path.dsv
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/local_setup.bash
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/local_setup.sh
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/local_setup.zsh
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/local_setup.dsv
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/package.dsv
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/ament_index/resource_index/packages/realsense_mapping
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/cmake/realsense_mappingConfig.cmake
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/cmake/realsense_mappingConfig-version.cmake
+-- Symlinking: /home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/package.xml

@@ -1,0 +1,1 @@
+/home/david/Desktop/infra_red_ws/src/realsense_mapping/rtabmap_launch/lidar_localization_rtabmap.launch.py

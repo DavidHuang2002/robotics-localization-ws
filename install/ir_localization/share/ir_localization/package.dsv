@@ -1,0 +1,9 @@
+source;share/ir_localization/hook/pythonpath.ps1
+source;share/ir_localization/hook/pythonpath.dsv
+source;share/ir_localization/hook/pythonpath.sh
+source;share/ir_localization/hook/ament_prefix_path.ps1
+source;share/ir_localization/hook/ament_prefix_path.dsv
+source;share/ir_localization/hook/ament_prefix_path.sh
+source;../../build/ir_localization/share/ir_localization/hook/pythonpath_develop.ps1
+source;../../build/ir_localization/share/ir_localization/hook/pythonpath_develop.dsv
+source;../../build/ir_localization/share/ir_localization/hook/pythonpath_develop.sh

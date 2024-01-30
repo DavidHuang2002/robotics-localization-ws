@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find-pkg-share realsense_mapping)/rtabmap_launch/standard_rtabmap.launch.py"/>
+    <include file="$(find-pkg-share realsense_mapping)/realsense_launch/base_link_to_camera_link.launch.py"/>
+    <include file="$(find-pkg-share realsense_mapping)/realsense_launch/realsense.launch.py"/>
+</launch>

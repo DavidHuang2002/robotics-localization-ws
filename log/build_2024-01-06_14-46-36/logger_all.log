@@ -1,0 +1,199 @@
+[2.145s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink']
+[2.145s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f751a271c70>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f751a271c70>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f751a274640>)
+[2.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.253s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/david/Desktop/infra_red_ws'
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_localization) by extensions ['ignore', 'ignore_ament_install']
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_localization) by extension 'ignore'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_localization) by extension 'ignore_ament_install'
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_localization) by extensions ['colcon_pkg']
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_localization) by extension 'colcon_pkg'
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_localization) by extensions ['colcon_meta']
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_localization) by extension 'colcon_meta'
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_localization) by extensions ['ros']
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_localization) by extension 'ros'
+[2.267s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ir_localization' with type 'ros.ament_python' and name 'ir_localization'
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_mapping) by extensions ['ignore', 'ignore_ament_install']
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_mapping) by extension 'ignore'
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_mapping) by extension 'ignore_ament_install'
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_mapping) by extensions ['colcon_pkg']
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_mapping) by extension 'colcon_pkg'
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_mapping) by extensions ['colcon_meta']
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_mapping) by extension 'colcon_meta'
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_mapping) by extensions ['ros']
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_mapping) by extension 'ros'
+[2.269s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense_mapping' with type 'ros.ament_cmake' and name 'realsense_mapping'
+[2.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.555s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/david/Desktop/infra_red_ws/install
+[2.593s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 18 installed packages in /home/david/Desktop/lunabot-2023/install
+[2.642s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 26 installed packages in /home/david/ws_moveit2/install
+[2.687s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 386 installed packages in /opt/ros/foxy
+[2.689s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.841s] Level 5:colcon.colcon_core.verb:set package 'ir_localization' build argument 'cmake_args' from command line to 'None'
+[2.841s] Level 5:colcon.colcon_core.verb:set package 'ir_localization' build argument 'cmake_target' from command line to 'None'
+[2.841s] Level 5:colcon.colcon_core.verb:set package 'ir_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.841s] Level 5:colcon.colcon_core.verb:set package 'ir_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[2.841s] Level 5:colcon.colcon_core.verb:set package 'ir_localization' build argument 'cmake_clean_first' from command line to 'False'
+[2.841s] Level 5:colcon.colcon_core.verb:set package 'ir_localization' build argument 'cmake_force_configure' from command line to 'False'
+[2.841s] Level 5:colcon.colcon_core.verb:set package 'ir_localization' build argument 'ament_cmake_args' from command line to 'None'
+[2.841s] Level 5:colcon.colcon_core.verb:set package 'ir_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[2.841s] Level 5:colcon.colcon_core.verb:set package 'ir_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.841s] DEBUG:colcon.colcon_core.verb:Building package 'ir_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/david/Desktop/infra_red_ws/build/ir_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/david/Desktop/infra_red_ws/install/ir_localization', 'merge_install': False, 'path': '/home/david/Desktop/infra_red_ws/src/ir_localization', 'symlink_install': True, 'test_result_base': None}
+[2.879s] Level 5:colcon.colcon_core.verb:set package 'realsense_mapping' build argument 'cmake_args' from command line to 'None'
+[2.879s] Level 5:colcon.colcon_core.verb:set package 'realsense_mapping' build argument 'cmake_target' from command line to 'None'
+[2.879s] Level 5:colcon.colcon_core.verb:set package 'realsense_mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.879s] Level 5:colcon.colcon_core.verb:set package 'realsense_mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[2.879s] Level 5:colcon.colcon_core.verb:set package 'realsense_mapping' build argument 'cmake_clean_first' from command line to 'False'
+[2.879s] Level 5:colcon.colcon_core.verb:set package 'realsense_mapping' build argument 'cmake_force_configure' from command line to 'False'
+[2.879s] Level 5:colcon.colcon_core.verb:set package 'realsense_mapping' build argument 'ament_cmake_args' from command line to 'None'
+[2.879s] Level 5:colcon.colcon_core.verb:set package 'realsense_mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[2.879s] Level 5:colcon.colcon_core.verb:set package 'realsense_mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.879s] DEBUG:colcon.colcon_core.verb:Building package 'realsense_mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/david/Desktop/infra_red_ws/build/realsense_mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/david/Desktop/infra_red_ws/install/realsense_mapping', 'merge_install': False, 'path': '/home/david/Desktop/infra_red_ws/src/realsense_mapping', 'symlink_install': True, 'test_result_base': None}
+[2.916s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.953s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.953s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/david/Desktop/infra_red_ws/src/ir_localization' with build type 'ament_python'
+[2.953s] Level 1:colcon.colcon_core.shell:create_environment_hook('ir_localization', 'ament_prefix_path')
+[2.992s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/Desktop/infra_red_ws/install/ir_localization/share/ir_localization/hook/ament_prefix_path.ps1'
+[2.993s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/Desktop/infra_red_ws/install/ir_localization/share/ir_localization/hook/ament_prefix_path.dsv'
+[2.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/Desktop/infra_red_ws/install/ir_localization/share/ir_localization/hook/ament_prefix_path.sh'
+[3.031s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.031s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.245s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/david/Desktop/infra_red_ws/src/realsense_mapping' with build type 'ament_cmake'
+[3.245s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/david/Desktop/infra_red_ws/src/realsense_mapping'
+[3.301s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.301s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.734s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/david/Desktop/infra_red_ws/src/ir_localization'
+[3.782s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.782s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.016s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/Desktop/infra_red_ws/build/realsense_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/Desktop/lunabot-2023/install/infra_red_localization:/home/david/Desktop/lunabot-2023/install/state_machine:/home/david/Desktop/lunabot-2023/install/robot_bring_up:/home/david/Desktop/lunabot-2023/install/lidar_localization:/home/david/Desktop/lunabot-2023/install/flip_base_link:/opt/ros/foxy /usr/bin/cmake /home/david/Desktop/infra_red_ws/src/realsense_mapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/david/Desktop/infra_red_ws/install/realsense_mapping
+[4.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/Desktop/infra_red_ws/build/ir_localization': PYTHONPATH=/home/david/Desktop/infra_red_ws/build/ir_localization/prefix_override:/home/david/Desktop/infra_red_ws/install/ir_localization/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/david/Desktop/infra_red_ws/build/ir_localization/build --no-deps install_data
+[5.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('ir_localization', 'pythonpath_develop')
+[5.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/Desktop/infra_red_ws/build/ir_localization' returned '0': PYTHONPATH=/home/david/Desktop/infra_red_ws/build/ir_localization/prefix_override:/home/david/Desktop/infra_red_ws/install/ir_localization/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/david/Desktop/infra_red_ws/build/ir_localization/build --no-deps install_data
+[5.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/Desktop/infra_red_ws/build/ir_localization/share/ir_localization/hook/pythonpath_develop.ps1'
+[5.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/Desktop/infra_red_ws/build/ir_localization/share/ir_localization/hook/pythonpath_develop.dsv'
+[5.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/Desktop/infra_red_ws/build/ir_localization/share/ir_localization/hook/pythonpath_develop.sh'
+[5.186s] Level 1:colcon.colcon_core.environment:checking '/home/david/Desktop/infra_red_ws/install/ir_localization' for CMake module files
+[5.186s] Level 1:colcon.colcon_core.environment:checking '/home/david/Desktop/infra_red_ws/install/ir_localization' for CMake config files
+[5.187s] Level 1:colcon.colcon_core.environment:checking '/home/david/Desktop/infra_red_ws/install/ir_localization/lib'
+[5.187s] Level 1:colcon.colcon_core.environment:checking '/home/david/Desktop/infra_red_ws/install/ir_localization/bin'
+[5.187s] Level 1:colcon.colcon_core.environment:checking '/home/david/Desktop/infra_red_ws/install/ir_localization/lib/pkgconfig/ir_localization.pc'
+[5.187s] Level 1:colcon.colcon_core.environment:checking '/home/david/Desktop/infra_red_ws/install/ir_localization/lib/python3.8/site-packages'
+[5.187s] Level 1:colcon.colcon_core.shell:create_environment_hook('ir_localization', 'pythonpath')
+[5.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/Desktop/infra_red_ws/install/ir_localization/share/ir_localization/hook/pythonpath.ps1'
+[5.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/Desktop/infra_red_ws/install/ir_localization/share/ir_localization/hook/pythonpath.dsv'
+[5.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/Desktop/infra_red_ws/install/ir_localization/share/ir_localization/hook/pythonpath.sh'
+[5.231s] Level 1:colcon.colcon_core.environment:checking '/home/david/Desktop/infra_red_ws/install/ir_localization/bin'
+[5.231s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ir_localization)
+[5.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Desktop/infra_red_ws/install/ir_localization/share/ir_localization/package.ps1'
+[5.280s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/Desktop/infra_red_ws/install/ir_localization/share/ir_localization/package.dsv'
+[5.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Desktop/infra_red_ws/install/ir_localization/share/ir_localization/package.sh'
+[5.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Desktop/infra_red_ws/install/ir_localization/share/ir_localization/package.bash'
+[5.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Desktop/infra_red_ws/install/ir_localization/share/ir_localization/package.zsh'
+[5.283s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/Desktop/infra_red_ws/install/ir_localization/share/colcon-core/packages/ir_localization)
+[7.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/Desktop/infra_red_ws/build/realsense_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/Desktop/lunabot-2023/install/infra_red_localization:/home/david/Desktop/lunabot-2023/install/state_machine:/home/david/Desktop/lunabot-2023/install/robot_bring_up:/home/david/Desktop/lunabot-2023/install/lidar_localization:/home/david/Desktop/lunabot-2023/install/flip_base_link:/opt/ros/foxy /usr/bin/cmake /home/david/Desktop/infra_red_ws/src/realsense_mapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/david/Desktop/infra_red_ws/install/realsense_mapping
+[7.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/Desktop/infra_red_ws/build/realsense_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/Desktop/lunabot-2023/install/infra_red_localization:/home/david/Desktop/lunabot-2023/install/state_machine:/home/david/Desktop/lunabot-2023/install/robot_bring_up:/home/david/Desktop/lunabot-2023/install/lidar_localization:/home/david/Desktop/lunabot-2023/install/flip_base_link:/opt/ros/foxy /usr/bin/cmake --build /home/david/Desktop/infra_red_ws/build/realsense_mapping -- -j12 -l12
+[14.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/Desktop/infra_red_ws/build/realsense_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/Desktop/lunabot-2023/install/infra_red_localization:/home/david/Desktop/lunabot-2023/install/state_machine:/home/david/Desktop/lunabot-2023/install/robot_bring_up:/home/david/Desktop/lunabot-2023/install/lidar_localization:/home/david/Desktop/lunabot-2023/install/flip_base_link:/opt/ros/foxy /usr/bin/cmake --build /home/david/Desktop/infra_red_ws/build/realsense_mapping -- -j12 -l12
+[14.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/Desktop/infra_red_ws/build/realsense_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/Desktop/lunabot-2023/install/infra_red_localization:/home/david/Desktop/lunabot-2023/install/state_machine:/home/david/Desktop/lunabot-2023/install/robot_bring_up:/home/david/Desktop/lunabot-2023/install/lidar_localization:/home/david/Desktop/lunabot-2023/install/flip_base_link:/opt/ros/foxy /usr/bin/cmake --install /home/david/Desktop/infra_red_ws/build/realsense_mapping
+[14.541s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense_mapping)
+[14.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/Desktop/infra_red_ws/build/realsense_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/Desktop/lunabot-2023/install/infra_red_localization:/home/david/Desktop/lunabot-2023/install/state_machine:/home/david/Desktop/lunabot-2023/install/robot_bring_up:/home/david/Desktop/lunabot-2023/install/lidar_localization:/home/david/Desktop/lunabot-2023/install/flip_base_link:/opt/ros/foxy /usr/bin/cmake --install /home/david/Desktop/infra_red_ws/build/realsense_mapping
+[14.585s] Level 1:colcon.colcon_core.environment:checking '/home/david/Desktop/infra_red_ws/install/realsense_mapping' for CMake module files
+[14.585s] Level 1:colcon.colcon_core.environment:checking '/home/david/Desktop/infra_red_ws/install/realsense_mapping' for CMake config files
+[14.586s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_mapping', 'cmake_prefix_path')
+[14.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/hook/cmake_prefix_path.ps1'
+[14.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/hook/cmake_prefix_path.dsv'
+[14.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/hook/cmake_prefix_path.sh'
+[14.631s] Level 1:colcon.colcon_core.environment:checking '/home/david/Desktop/infra_red_ws/install/realsense_mapping/lib'
+[14.631s] Level 1:colcon.colcon_core.environment:checking '/home/david/Desktop/infra_red_ws/install/realsense_mapping/bin'
+[14.631s] Level 1:colcon.colcon_core.environment:checking '/home/david/Desktop/infra_red_ws/install/realsense_mapping/lib/pkgconfig/realsense_mapping.pc'
+[14.632s] Level 1:colcon.colcon_core.environment:checking '/home/david/Desktop/infra_red_ws/install/realsense_mapping/lib/python3.8/site-packages'
+[14.632s] Level 1:colcon.colcon_core.environment:checking '/home/david/Desktop/infra_red_ws/install/realsense_mapping/bin'
+[14.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/package.ps1'
+[14.673s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/package.dsv'
+[14.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/package.sh'
+[14.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/package.bash'
+[14.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/package.zsh'
+[14.674s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/Desktop/infra_red_ws/install/realsense_mapping/share/colcon-core/packages/realsense_mapping)
+[14.771s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense_mapping)
+[14.811s] Level 1:colcon.colcon_core.environment:checking '/home/david/Desktop/infra_red_ws/install/realsense_mapping' for CMake module files
+[14.812s] Level 1:colcon.colcon_core.environment:checking '/home/david/Desktop/infra_red_ws/install/realsense_mapping' for CMake config files
+[14.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_mapping', 'cmake_prefix_path')
+[14.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/hook/cmake_prefix_path.ps1'
+[14.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/hook/cmake_prefix_path.dsv'
+[14.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/hook/cmake_prefix_path.sh'
+[14.853s] Level 1:colcon.colcon_core.environment:checking '/home/david/Desktop/infra_red_ws/install/realsense_mapping/lib'
+[14.853s] Level 1:colcon.colcon_core.environment:checking '/home/david/Desktop/infra_red_ws/install/realsense_mapping/bin'
+[14.853s] Level 1:colcon.colcon_core.environment:checking '/home/david/Desktop/infra_red_ws/install/realsense_mapping/lib/pkgconfig/realsense_mapping.pc'
+[14.853s] Level 1:colcon.colcon_core.environment:checking '/home/david/Desktop/infra_red_ws/install/realsense_mapping/lib/python3.8/site-packages'
+[14.853s] Level 1:colcon.colcon_core.environment:checking '/home/david/Desktop/infra_red_ws/install/realsense_mapping/bin'
+[14.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/package.ps1'
+[14.895s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/package.dsv'
+[14.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/package.sh'
+[14.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/package.bash'
+[14.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Desktop/infra_red_ws/install/realsense_mapping/share/realsense_mapping/package.zsh'
+[14.896s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/Desktop/infra_red_ws/install/realsense_mapping/share/colcon-core/packages/realsense_mapping)
+[14.896s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.897s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.897s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.897s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.945s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.945s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.945s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.957s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.998s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/david/Desktop/infra_red_ws/install/local_setup.ps1'
+[14.999s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/david/Desktop/infra_red_ws/install/_local_setup_util_ps1.py'
+[15.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/david/Desktop/infra_red_ws/install/setup.ps1'
+[15.044s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/david/Desktop/infra_red_ws/install/local_setup.sh'
+[15.045s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/david/Desktop/infra_red_ws/install/_local_setup_util_sh.py'
+[15.045s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/david/Desktop/infra_red_ws/install/setup.sh'
+[15.088s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/david/Desktop/infra_red_ws/install/local_setup.bash'
+[15.089s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/david/Desktop/infra_red_ws/install/setup.bash'
+[15.138s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/david/Desktop/infra_red_ws/install/local_setup.zsh'
+[15.138s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/david/Desktop/infra_red_ws/install/setup.zsh'

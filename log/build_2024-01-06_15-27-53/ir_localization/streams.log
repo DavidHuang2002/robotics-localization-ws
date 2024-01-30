@@ -1,0 +1,18 @@
+[1.478s] Invoking command in '/home/david/Desktop/infra_red_ws/build/ir_localization': PYTHONPATH=/home/david/Desktop/infra_red_ws/build/ir_localization/prefix_override:/home/david/Desktop/infra_red_ws/install/ir_localization/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/david/Desktop/infra_red_ws/build/ir_localization/build --no-deps install_data
+[1.712s] running develop
+[1.848s] running egg_info
+[1.849s] writing ir_localization.egg-info/PKG-INFO
+[1.849s] writing dependency_links to ir_localization.egg-info/dependency_links.txt
+[1.849s] writing entry points to ir_localization.egg-info/entry_points.txt
+[1.849s] writing requirements to ir_localization.egg-info/requires.txt
+[1.849s] writing top-level names to ir_localization.egg-info/top_level.txt
+[1.878s] reading manifest file 'ir_localization.egg-info/SOURCES.txt'
+[1.878s] writing manifest file 'ir_localization.egg-info/SOURCES.txt'
+[1.908s] running build_ext
+[1.909s] Creating /home/david/Desktop/infra_red_ws/install/ir_localization/lib/python3.8/site-packages/ir-localization.egg-link (link to .)
+[1.909s] Installing bright_spot_detect script to /home/david/Desktop/infra_red_ws/install/ir_localization/lib/ir_localization
+[1.910s] 
+[1.910s] Installed /home/david/Desktop/infra_red_ws/build/ir_localization
+[1.910s] running install_data
+[1.910s] copying package.xml -> /home/david/Desktop/infra_red_ws/install/ir_localization/share/ir_localization
+[1.928s] Invoked command in '/home/david/Desktop/infra_red_ws/build/ir_localization' returned '0': PYTHONPATH=/home/david/Desktop/infra_red_ws/build/ir_localization/prefix_override:/home/david/Desktop/infra_red_ws/install/ir_localization/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/david/Desktop/infra_red_ws/build/ir_localization/build --no-deps install_data
