@@ -1,0 +1,24 @@
+[2.939s] Invoking command in '/home/david/Desktop/infra_red_ws/build/radio_wave_localization': PYTHONPATH=/home/david/Desktop/infra_red_ws/build/radio_wave_localization/prefix_override:/home/david/Desktop/infra_red_ws/install/radio_wave_localization/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/david/Desktop/infra_red_ws/build/radio_wave_localization/build --no-deps install_data
+[3.284s] running develop
+[3.496s] running egg_info
+[3.496s] creating radio_wave_localization.egg-info
+[3.496s] writing radio_wave_localization.egg-info/PKG-INFO
+[3.497s] writing dependency_links to radio_wave_localization.egg-info/dependency_links.txt
+[3.497s] writing entry points to radio_wave_localization.egg-info/entry_points.txt
+[3.497s] writing requirements to radio_wave_localization.egg-info/requires.txt
+[3.497s] writing top-level names to radio_wave_localization.egg-info/top_level.txt
+[3.501s] writing manifest file 'radio_wave_localization.egg-info/SOURCES.txt'
+[3.541s] reading manifest file 'radio_wave_localization.egg-info/SOURCES.txt'
+[3.542s] writing manifest file 'radio_wave_localization.egg-info/SOURCES.txt'
+[3.588s] running build_ext
+[3.589s] Creating /home/david/Desktop/infra_red_ws/install/radio_wave_localization/lib/python3.8/site-packages/site.py
+[3.591s] Creating /home/david/Desktop/infra_red_ws/install/radio_wave_localization/lib/python3.8/site-packages/radio-wave-localization.egg-link (link to .)
+[3.593s] 
+[3.593s] Installed /home/david/Desktop/infra_red_ws/build/radio_wave_localization
+[3.593s] running install_data
+[3.593s] creating /home/david/Desktop/infra_red_ws/install/radio_wave_localization/share/ament_index
+[3.593s] creating /home/david/Desktop/infra_red_ws/install/radio_wave_localization/share/ament_index/resource_index
+[3.593s] creating /home/david/Desktop/infra_red_ws/install/radio_wave_localization/share/ament_index/resource_index/packages
+[3.594s] copying resource/radio_wave_localization -> /home/david/Desktop/infra_red_ws/install/radio_wave_localization/share/ament_index/resource_index/packages
+[3.594s] copying package.xml -> /home/david/Desktop/infra_red_ws/install/radio_wave_localization/share/radio_wave_localization
+[3.625s] Invoked command in '/home/david/Desktop/infra_red_ws/build/radio_wave_localization' returned '0': PYTHONPATH=/home/david/Desktop/infra_red_ws/build/radio_wave_localization/prefix_override:/home/david/Desktop/infra_red_ws/install/radio_wave_localization/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/david/Desktop/infra_red_ws/build/radio_wave_localization/build --no-deps install_data
